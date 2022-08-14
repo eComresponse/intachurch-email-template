@@ -16,8 +16,8 @@ header {
 }
 
 .brand {
-    width: 150px;
-    height: 23px;
+    width: 9.4em;
+    height: 1.5em;
 }
 
 main {
@@ -36,13 +36,13 @@ main {
 }
 
 .button {
-    padding: 8px 16px;
+    padding: .5em 1em;
     background: #5D1AB2;
     border: 1px solid rgba(0, 0, 0, 0.24);
-    border-radius: 20px;
+    border-radius: 1.25em;
     color: #fff;
-    width: 122px;
-    height: 40px;
+    width: 8em;
+    height: 2.5em;
 }
 
 section {
@@ -68,8 +68,8 @@ footer {
 }
 
 .footer-logo {
-    width: 95.64px;
-    height: 14.21px;
+    width: 6em;
+    height: .9em;
 }
 
 .social {
@@ -81,4 +81,34 @@ footer {
     width: 24px;
     height: 24px;
     margin-left: 15px;
+}
+
+@media (min-width: 720px) {
+    body {
+        padding: 3em 8em;
+        font-size: 1.2rem;
+    }
+
+    .brand {
+        width: 14em;
+        height: 2.2em;
+    }
+
+    .button {
+        width: 10em;
+        height: 3.5em;
+        border-radius: 1.5em;
+        font-size: 1.1rem;
+    }
+
+    .footer-logo {
+        width: 9em;
+        height: 1.5em;
+    }
+
+    .social img {
+        width: 45px;
+        height: 45px;
+        margin-left: 20px;
+    }
 }
