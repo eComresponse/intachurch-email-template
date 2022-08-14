@@ -58,3 +58,27 @@ section {
 a {
     color: #5D1AB2
 }
+
+footer {
+    background: #F7F9FC;
+    padding: 2em;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 95.64px;
+    height: 14.21px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
