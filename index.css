@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EDE5F7;
+    padding: 2em;
+}
+
+header {
+    padding: 1.5em;
+    background: #fff;
+}
+
+.brand {
+    width: 150px;
+    height: 23px;
+}
