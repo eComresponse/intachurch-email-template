@@ -32,6 +32,9 @@ main {
 
 .msg {
     margin: 1.5em auto;
+}
+
+.msg a {
     text-decoration: none;
 }
 
@@ -43,6 +46,7 @@ main {
     color: #fff;
     width: 8em;
     height: 2.5em;
+    cursor: pointer;
 }
 
 section {
@@ -81,6 +85,7 @@ footer {
     width: 24px;
     height: 24px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 @media (min-width: 720px) {
@@ -91,7 +96,12 @@ footer {
 
     .brand {
         width: 14em;
-        height: 2.2em;
+        height: 2.1em;
+    }
+
+    section {
+        font-size: .9rem;
+        letter-spacing: 0px;
     }
 
     .button {
@@ -103,12 +113,12 @@ footer {
 
     .footer-logo {
         width: 9em;
-        height: 1.5em;
+        height: 1.4em;
     }
 
     .social img {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         margin-left: 20px;
     }
 }
