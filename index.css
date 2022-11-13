@@ -1,125 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
 body {
-    background: #EDE5F7;
-    padding: 2em;
+   background: #ede5f7;
+   padding: 2em;
 }
 
 header {
-    padding: 1.5em;
+   padding: 1.5em;
 }
 
 .brand {
-    width: 9.4em;
-    height: 1.5em;
+   width: 9.4em;
+   height: 1.5em;
 }
 
 main {
-    background: #fff;
-    padding: 2em;
-    font-family: "Open Sans";
+   background: #fff;
+   padding: 2em;
+   font-family: "Open Sans";
 }
 
 .content {
-    color: #333333
+   color: #333333;
 }
 
 .msg {
-    margin: 1.5em auto;
+   margin: 1.5em auto;
 }
 
 .msg a {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 .button {
-    padding: .5em 1em;
-    background: #5D1AB2;
-    border: 1px solid rgba(0, 0, 0, 0.24);
-    border-radius: 1.25em;
-    color: #fff;
-    width: 8em;
-    height: 2.5em;
-    cursor: pointer;
+   padding: 0.5em 1em;
+   background: #5d1ab2;
+   border: 1px solid rgba(0, 0, 0, 0.24);
+   border-radius: 1.25em;
+   color: #fff;
+   width: 8em;
+   height: 2.5em;
+   cursor: pointer;
+}
+.btnVisit {
+   padding: 0.5em 1em;
+   background: #5d1ab2;
+   border: 1px solid rgba(0, 0, 0, 0.24);
+   border-radius: 1.25em;
+   color: #fff;
+   width: 8em;
+   height: 2.5em;
+   cursor: pointer;
 }
 
 section {
-    background: #F7F9FC;
-    padding: 2em;
-    font-family: "Inter";
-    font-size: 0.8rem;
-    line-height: 1.25em;
-    font-weight: 400;
-    letter-spacing: .5px;
+   background: #f7f9fc;
+   padding: 2em;
+   font-family: "Inter";
+   font-size: 0.8rem;
+   line-height: 1.25em;
+   font-weight: 400;
+   letter-spacing: 0.5px;
 }
 
 a {
-    color: #5D1AB2
+   color: #5d1ab2;
 }
 
 footer {
-    background: #F7F9FC;
-    padding: 2em;
-    padding-top: 0;
-    display: flex;
-    justify-content: space-between;
+   background: #f7f9fc;
+   padding: 2em;
+   padding-top: 0;
+   display: flex;
+   justify-content: space-between;
 }
 
 .footer-logo {
-    width: 6em;
-    height: .9em;
+   width: 6em;
+   height: 0.9em;
 }
 
 .social {
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
 }
 
 .social img {
-    width: 24px;
-    height: 24px;
-    margin-left: 15px;
-    cursor: pointer;
+   width: 24px;
+   height: 24px;
+   margin-left: 15px;
+   cursor: pointer;
+}
+
+.church_name {
+   color: #5d1ab2;
+}
+
+.line {
+   width: 16rem;
+   height: 0.01rem;
+   border-color: #333333;
+   background-color: rgba(0, 0, 0, 0.24);
+   margin-top: 2rem;
+}
+
+.getchurchapp {
+   margin-top: 1.5rem;
+}
+.getchuurchTitle {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5rem;
+}
+.getchuurchtext {
+   margin-top: 1.5rem;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #666666;
+}
+
+.btnApp {
+   display: flex;
+   justify-content: space-between;
+   width: 20rem;
+   margin-top: 1.5rem;
+   cursor: pointer;
+}
+
+.responsive {
+   width: 100%;
+   height: auto;
+}
+
+/* media query */
+
+@media (max-width: 600px) {
+   .btnVisit {
+      font-size: 0.3rem;
+      width: 12rem;
+      height: 1.2rem;
+      border: none;
+   }
+   .btnApp {
+      display: flex;
+      flex-direction: column;
+   }
+   .responsive {
+      width: 40%;
+      height: auto;
+   }
 }
 
 @media (min-width: 720px) {
-    body {
-        padding: 3em 8em;
-        font-size: 1.2rem;
-    }
+   body {
+      padding: 3em 8em;
+      font-size: 1.2rem;
+   }
 
-    .brand {
-        width: 14em;
-        height: 2.1em;
-    }
+   .brand {
+      width: 14em;
+      height: 2.1em;
+   }
 
-    section {
-        font-size: .9rem;
-        letter-spacing: 0px;
-    }
+   section {
+      font-size: 0.9rem;
+      letter-spacing: 0px;
+   }
 
-    .button {
-        width: 10em;
-        height: 3.5em;
-        border-radius: 1.5em;
-        font-size: 1.1rem;
-        margin-top: 1em;
-    }
+   .button {
+      width: 10em;
+      height: 3.5em;
+      border-radius: 1.5em;
+      font-size: 1.1rem;
+      margin-top: 1em;
+   }
+   .btnVisit {
+      width: 10em;
+      height: 3.5em;
+      border-radius: 1.5em;
+      font-size: 1.1rem;
+      margin-top: 1em;
+   }
 
-    .footer-logo {
-        width: 9em;
-        height: 1.4em;
-    }
+   .footer-logo {
+      width: 9em;
+      height: 1.4em;
+   }
 
-    .social img {
-        width: 40px;
-        height: 40px;
-        margin-left: 20px;
-    }
+   .social img {
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+   }
 }
