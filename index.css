@@ -7,8 +7,13 @@
 }
 
 body {
-   background: #ede5f7;
-   padding: 2em;
+    background:  #FAFAFA ;
+    padding: 3em;
+}
+.contentbody{
+  background-color: #EDE5F7;  
+  padding: 50px 18px;
+
 }
 
 header {
@@ -24,6 +29,11 @@ main {
    background: #fff;
    padding: 2em;
    font-family: "Open Sans";
+}
+
+.contentfont{
+   font-size: 1rem;
+   color: #333333;
 }
 
 .content {
@@ -82,7 +92,7 @@ footer {
 }
 
 .footer-logo {
-   width: 6em;
+   width: 5em;
    height: 0.9em;
 }
 
@@ -92,8 +102,8 @@ footer {
 }
 
 .social img {
-   width: 24px;
-   height: 24px;
+   width: 16px;
+   height: 16px;
    margin-left: 15px;
    cursor: pointer;
 }
@@ -159,10 +169,15 @@ footer {
 }
 
 @media (min-width: 720px) {
-   body {
-      padding: 3em 8em;
-      font-size: 1.2rem;
-   }
+      body {
+        padding: 3em 8em;
+        font-size: 1.2rem;
+    }
+  .contentbody{
+  background-color: #EDE5F7;  
+  padding: 100px 32px;
+
+}
 
    .brand {
       width: 14em;
