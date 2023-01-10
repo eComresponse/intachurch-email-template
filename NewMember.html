@@ -16,13 +16,15 @@
         }
 
         body {
-            background:  #FAFAFA ;
+            background:  #FAFAFA;
             padding: 3em;
         }
-        .contentbody{
-          background-color: #EDE5F7;  
-          padding: 50px 18px;
 
+        .contentbody{
+            background-color: #EDE5F7;  
+            padding: 50px 18px;
+            margin: 0 auto;
+            max-width: 640px;
         }
 
         header {
@@ -70,12 +72,13 @@
         }
 
         .sub {
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin: 1.5em auto;
         }
 
         #app-details {
             color: #666666;
+            font-size: .9em;
         }
 
         .app {
@@ -119,7 +122,7 @@
         }
 
         .footer-logo {
-            width: 4.7em;
+            width: auto;
             height: .9em;
         }
 
@@ -140,33 +143,28 @@
             border: 1px solid rgba(0, 0, 0, 0.24);
         }
 
-        @media (min-width: 720px) {
+        @media screen and (min-width: 475px) {
             body {
                 padding: 3em 8em;
                 font-size: 1.1rem;
             }
-          .contentbody{
-          background-color: #EDE5F7;  
-          padding: 100px 32px;
-
-        }
-
+            .contentbody{
+                background-color: #EDE5F7;  
+                padding: 100px 32px;
+            }
             h4 {
                 font-size: 1.3em;
             }
-
             .brand {
                 width: 14em;
                 height: 2.1em;
             }
-
             section {
                 font-size: 1rem;
                 letter-spacing: .5px;
                 line-height: 1.2em;
                 padding-bottom: .5em;
             }
-
             .button {
                 width: 10em;
                 height: 3.5em;
@@ -175,39 +173,38 @@
                 margin-top: 2em;
             }
 
+            /* .sub {
+                font-size: .7em;
+            } */
+
             .divider {
                 width: 18%;
             }
-
             .app {
                 flex-direction: row;
                 justify-content: flex-start;
                 margin-bottom: 0;
             }
-
             #app-store {
                 margin-right: 20px;
                 margin-bottom: 0;
                 width: 8.5rem;
                 height: 2.8rem;
             }
-        #google-store{
-                    height: 2.8rem;
+            #google-store{
+                height: 2.8rem;
                 width: 9.6rem;
 
-        }
-
+            }
             .footer-logo {
-                width: 9em;
+                width: auto;
                 height: 1.4em;
             }
-
             .social img {
-                width: 40px;
-                height: 40px;
+                width: 35px;
+                height: 35px;
                 margin-left: 20px;
             }
-
             main, section, footer {
                 padding: 4em;
             }
@@ -247,9 +244,9 @@
     <footer>
         <img src="https://i.ibb.co/1fs0Xkq/Group-3.png" alt="Seconday brand logo" class="footer-logo">
         <div class="social">
-            <a href=""><img src="https://i.ibb.co/hCFDRkj/Frame-4.png" alt="Twitter"></a>
-            <a href=""><img src="https://i.ibb.co/NYb3673/Frame-5.png" alt="Facebook"></a>
-            <a href=""><img src="https://i.ibb.co/PYdTH2n/Frame-6.png" alt="Instagram"></a>
+            <a href="https://www.instagram.com/intachurchapp/" target="_blank"><img src="https://i.ibb.co/Tcb7JT3/instagram.png" alt="Instagram"/></a>
+            <a href="https://www.facebook.com/people/Intachurch-app/100083323029603/" target="_blank"><img src="https://i.ibb.co/NYb3673/Frame-5.png" alt="Facebook"/></a>
+            <a href="https://www.linkedin.com/company/intachurch/" target="_blank"><img src="https://i.ibb.co/PYdTH2n/Frame-6.png" alt="Instagram"/></a>
         </div>
     </footer>
     </div>
